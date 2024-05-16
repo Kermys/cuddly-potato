@@ -202,9 +202,9 @@ div#itemBackdrop {
   mask-composite: intersect;
 }
 
-div#itemBackdrop::after {
+/*div#itemBackdrop::after {
   display: none;
-}
+}*/
 
 .detailPageSecondaryContainer {
   margin: 0em !important;
@@ -1501,7 +1501,7 @@ div#divRunningTasks {
 
 .detailPageContent {
   text-shadow: none;
-  background: rgb(20, 20, 20);
+/*  background: rgb(20, 20, 20); */
   background: transparent;
   padding-left: 0;
   padding-right: 0 !important;
