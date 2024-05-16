@@ -1507,9 +1507,19 @@ div#divRunningTasks {
   padding-right: 0 !important;
 }
 
-/*.detailLogo {
-  display: none;
-} */
+.detailLogo {
+/*  display: none; */
+  right: unset;
+  margin: 0 5vw;
+}
+
+.mainAnimatedPage {
+ position: inherit;
+}
+
+.itemDetailPage {
+ padding-top: inherit;
+}
 
 .layout-mobile .detailPageContent {
   padding: 0 !important;
