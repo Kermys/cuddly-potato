@@ -1416,7 +1416,7 @@ label.selectLabel {
   z-index: 5;
 }
 
-.overflowSquareCard .cardImageContainer::before {
+/*.overflowSquareCard .cardImageContainer::before {
   content: "";
   background: inherit;
   width: 130%;
@@ -1429,7 +1429,7 @@ label.selectLabel {
   filter: brightness(40%) blur(10px);
   z-index: 0;
   transform: translate(-50%, -50%);
-}
+} */
 
 .overflowSquareCard .cardImageContainer::after {
   content: "";
