@@ -309,7 +309,7 @@ div#itemDetailPage {
 
 .layout-tv .backdropContainer {
   display: block !important;
-  z-index: -1;
+  z-index: 1;
 }
 
 .layout-tv .backgroundContainer.withBackdrop {
@@ -1731,8 +1731,8 @@ h2 {
 /*Blur backdrops, feel free to edit the intensity of the filter values*/
 
 .backdropContainer {
-/*  display: none !important; */
-  z-index: -1;
+/* display: none !important; */
+/* z-index: -1; /*
 }
 
 .backgroundContainer.withBackdrop {
