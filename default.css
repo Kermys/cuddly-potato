@@ -309,7 +309,7 @@ div#itemDetailPage {
 
 .layout-tv .backdropContainer {
   display: block !important;
-  z-index: 1;
+  z-index: 0;
 }
 
 .layout-tv .backgroundContainer.withBackdrop {
@@ -1732,7 +1732,6 @@ h2 {
 
 .backdropContainer {
 /* display: none !important; */
-/* z-index: -1; /*
 }
 
 .backgroundContainer.withBackdrop {
