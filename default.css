@@ -1732,12 +1732,12 @@ h2 {
 
 .backdropContainer {
   display: none !important; 
-  z-index: -1;
+  z-index: 100;
 }
 
 .backgroundContainer.withBackdrop {
   opacity: 1;
-  z-index: 1;
+  z-index: -1;
   background-color: rgb(20, 20, 20);
 }
 
