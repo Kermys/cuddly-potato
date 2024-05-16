@@ -186,7 +186,7 @@ button.emby-tab-button.emby-button.emby-tab-button-active:hover {
 
 div#itemBackdrop {
   height: 100% !important;
-  z-index: 0;
+  z-index: 100;
   position: absolute;
   background-position: top right;
   right: 0;
@@ -202,9 +202,9 @@ div#itemBackdrop {
   mask-composite: intersect;
 }
 
-/*div#itemBackdrop::after {
+div#itemBackdrop::after {
   display: none;
-}*/
+}
 
 .detailPageSecondaryContainer {
   margin: 0em !important;
