@@ -184,7 +184,7 @@ button.emby-tab-button.emby-button.emby-tab-button-active:hover {
 
 /*Theming Title Page*/
 
-/*div#itemBackdrop {
+div#itemBackdrop {
   height: 100% !important;
   z-index: 0;
   position: absolute;
@@ -200,7 +200,7 @@ button.emby-tab-button.emby-button.emby-tab-button-active:hover {
   mask-composite: source-in;
   -webkit-mask-composite: source-in;
   mask-composite: intersect; 
-}*/
+}
 
 div#itemBackdrop::after {
   display: none;
@@ -309,7 +309,7 @@ div#itemDetailPage {
 
 .layout-tv .backdropContainer {
   display: block !important;
-  z-index: -1;
+  z-index: 1;
 }
 
 .layout-tv .backgroundContainer.withBackdrop {
